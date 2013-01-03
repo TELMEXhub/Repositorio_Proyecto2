@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">MatrixLed</string>
+    <string name="conexion">Conectar</string>
+    <string name="desconexion">Desconectar</string>
+    <string name="borrando">Borrar</string>
+    <string name="anuncio">anuncio</string>
+</resources>

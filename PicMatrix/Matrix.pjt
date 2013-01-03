@@ -1,0 +1,26 @@
+[PROJECT]
+Target=C:\Android\Thub\Proyecto2\PicMatrix\Matrix.hex
+Development_Mode=
+Processor_Text=PIC16F628A
+ToolSuite=CCS
+Processor=0x628A
+[C:\Android\Thub\Proyecto2\PicMatrix\Matrix]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Android\Thub\Proyecto2\PicMatrix\Matrix.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Android\Thub\Proyecto2\PicMatrix\Matrix
+[Opened Files]
+1=Matrix.c
+2=..\..\Recursos\ProgPic\FINAL 12 MAYO\prueba1\p1.c
+3=
+4=

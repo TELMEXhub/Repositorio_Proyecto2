@@ -1,0 +1,51 @@
+
+ROM used: 936 (46%)
+          936 (46%) including unused fragments
+
+          1 Average locations per line
+          4 Average locations per statement
+
+RAM used: 21 (9%) at main() level
+          128 (57%) worst case
+
+Stack used: 3 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   98    98  45  Matrix.c
+   15     0   0  Matrix.h
+  222     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\16F628A.h
+  409   121  55  ..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+  800   219 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   2   1             @delay_ms1
+ Inline        0             @GETCH_BIU_1
+0     70   7   5   231  6.6  strcmp
+0    702  75   4  6009  5.0  RDA_isr
+0     94  10   0   592  2.4  MAIN
+
+Program metrics:
+    Functions               3
+    Statements              219
+    Comments                224
+    Volume (V)              7550
+    Difficilty (D)          14.2
+    Effort to implement (E) 107530
+    Time to implement (T)   1 hours, 40 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   37
+    Maintainability (MI)    95
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00030    45  0  
+00031-007FF   887  1112  
+
+
+

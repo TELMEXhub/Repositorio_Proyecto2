@@ -1,0 +1,117 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+005     puerto_a
+006     puerto_b
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     rs232_errors
+029-02A strtok.save
+02B     salidaA1
+02C     salidaA2
+02D     salidaA3
+02E     salidaA4
+02F     salidaA5
+030     @delay_ms1.P1
+031-033 RDA_isr.entrada
+034-035 RDA_isr.led1
+036-037 RDA_isr.led2
+038-039 RDA_isr.led3
+03A-03B RDA_isr.led4
+03C-03D RDA_isr.led5
+03E-03F RDA_isr.led6
+040-041 RDA_isr.led7
+042-043 RDA_isr.led8
+044-045 RDA_isr.led9
+046-048 RDA_isr.led10
+049-04B RDA_isr.led11
+04C-04E RDA_isr.led12
+04F-051 RDA_isr.led13
+052-054 RDA_isr.led14
+055     TRISA
+055-057 RDA_isr.led15
+056     TRISB
+058-05A RDA_isr.led16
+05B-05D RDA_isr.led17
+05E-060 RDA_isr.led18
+061-063 RDA_isr.led19
+064-066 RDA_isr.led20
+067-069 RDA_isr.led21
+06A-06C RDA_isr.led22
+06D-06F RDA_isr.led23
+070-072 RDA_isr.led24
+073-075 RDA_isr.led25
+076     RDA_isr.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B-07D RDA_isr.led26
+09B-09C @READ_PROGRAM_MEMORY8.P1
+0A0-0A2 RDA_isr.led27
+0A3-0A5 RDA_isr.led28
+0A6-0A8 RDA_isr.led29
+0A9-0AB RDA_isr.led30
+0AC-0AE RDA_isr.led31
+0AF-0B1 RDA_isr.led32
+0B2-0B4 RDA_isr.led33
+0B5-0B7 RDA_isr.led34
+0B8-0BA RDA_isr.led35
+0BB-0BC strcmp.s1
+0BD-0BE strcmp.s2
+0BF     strcmp.@SCRATCH1
+
+ROM Allocation:
+0335  @delay_ms1
+007E  @GETCH_BIU_1
+0031  strcmp
+0077  RDA_isr
+034A  MAIN
+034A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Android\Thub\Proyecto2\PicMatrix\
+
+Project Files:
+    Matrix.c
+    Matrix.h
+    ..\..\..\..\Program Files (x86)\PICC\devices\16F628A.h
+    ..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Android\Thub\Proyecto2\PicMatrix\Matrix (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Matrix.err
+    Ext Symbols: Matrix.esym
+    INHX8:       Matrix.hex
+    Symbols:     Matrix.sym
+    List:        Matrix.lst
+    Debug/COFF:  Matrix.cof
+    Project:     Matrix.PJT
+    Call Tree:   Matrix.tre
+    Statistics:  Matrix.sta
